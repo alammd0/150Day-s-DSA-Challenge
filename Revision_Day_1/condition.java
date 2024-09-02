@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class condition {
 
+    // 1. check the given character is alphabets or not
     public static void checkCharater(char ch) {
         if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
             System.out.println("Given Charater is alphabets");
@@ -12,6 +13,7 @@ public class condition {
         }
     }
 
+    // 2. check the given number is divisible by 5 and 11
     public static String checkNumber(int num) {
         if (num % 5 == 0 && num % 11 == 0) {
             return "Yes";
@@ -20,6 +22,7 @@ public class condition {
         }
     }
 
+    // 3. check the given alphabet is vowels and constant 
     public static String checkVowelAndConst(char ch) {
         if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
@@ -32,6 +35,7 @@ public class condition {
         }
     }
 
+    // 4. check the given character is alphabet , digit or special character
     public static String checkCharacter(char ch) {
         if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
             return "Given Charater is alphabets";
@@ -42,6 +46,7 @@ public class condition {
         }
     }
 
+    // 5. check the given character is upper and lower case latter 
     public static void checklowerAndUpper(char ch) {
         if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
             if (ch >= 'a' && ch <= 'z') {
@@ -54,6 +59,7 @@ public class condition {
         }
     }
 
+    // 6. count the notes in given currency note and also given the amount 
     public static void countNotes() {
         int notes500, notes200, notes100, notes50, notes20, notes10, notes5, notes2, notes1;
 
@@ -127,6 +133,8 @@ public class condition {
         System.out.println(notes1);
     }
 
+
+    // 7. check the valid Triangle 
     public static void checkValidTringangle(int angle1, int angle2, int angle3) {
 
         int sum = angle1 + angle2 + angle3;
@@ -138,6 +146,7 @@ public class condition {
         }
     }
 
+    // 8. check the triangle (equalater, scalene and isoscelence)
     public static void checktringle(int side1, int side2, int side3) {
 
         if (side1 == side2 && side1 == side3) {
@@ -149,6 +158,7 @@ public class condition {
         }
     }
 
+    // 9. profit loss question 
     public static void profitAndLoss(int sp, int cp) {
 
         int profit = 0;
@@ -167,6 +177,7 @@ public class condition {
         }
     }
 
+    // 10. calculate the percentage and give the grade accordind the codition
     public static void calculatePercentage() {
 
         Scanner sc = new Scanner(System.in);
